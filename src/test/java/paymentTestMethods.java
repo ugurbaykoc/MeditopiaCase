@@ -10,7 +10,7 @@ public class paymentTestMethods
     WebDriver driver;
 
     public void Setup() {
-        System.setProperty("webdriver.chrome.driver", "/Users/ugurbaykoc/Downloads/chromedriver");
+        System.setProperty("webdriver.chrome.driver", "chromedriver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("https://meditopia.app/int/FuoEFN3QDgLo06lrOhySuWubL5IbbO4f/");
